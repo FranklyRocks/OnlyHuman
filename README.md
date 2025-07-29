@@ -1,4 +1,4 @@
-# OnlyHuman
+# 🌎 OnlyHuman
 
 Tired of seeing the internet slowly turn into a soup of ChatGPT rewrites, SEO sludge and fake engagement bots?
 
