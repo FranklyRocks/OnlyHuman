@@ -56,5 +56,5 @@ OnlyHuman is a best-effort attempt to fight the flood. It won’t catch everythi
 
 But at least we’re trying.
 
-**OnlyHuman** — because your time is worth more than reading the 12th AI rewrite of “10 productivity tips from Stoic billionaires”.
+Because your time is worth more than reading the 12th AI rewrite of “10 productivity tips from Stoic billionaires”.
 
