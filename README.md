@@ -52,7 +52,7 @@ You can:
 
 ## 🧪 Disclaimer
 
-OnlyHuman is a best-effort attempt to fight the flood. It won’t catch everything. It may catch too much. The web is messy, and we’re humans, not AI — so we get things wrong too.
+OnlyHuman is a best effort attempt to fight the flood. It won’t catch everything. It may catch too much. The web is messy, and we’re humans, not AI, so we get things wrong too.
 
 But at least we’re trying.
 
