@@ -819,6 +819,7 @@
 ||aiimagegenerator.is^$doc
 ||musesai.io^$doc
 ||promptstock.photos^$doc
+||cashify.in^$doc
 
 # Block Google results
 google.com##a[href*="artvy.ai"]:upward(2):remove()
@@ -1647,6 +1648,7 @@ google.com##a[href*="flexiple.com"]:upward(2):remove()
 google.com##a[href*="javascriptacademy.dev"]:upward(2):remove()
 google.com##a[href*="Foolish Developer"]:upward(2):remove()
 google.com##a[href*="codewithfaraz.com"]:upward(2):remove()
+google.com##a[href*="cashify.in"]:upward(2):remove()
 
 # Block Bing results
 www.bing.com##li.b_algo:has(a[aria-label="artvy.ai"])
@@ -2475,3 +2477,4 @@ www.bing.com##li.b_algo:has(a[aria-label="flexiple.com"])
 www.bing.com##li.b_algo:has(a[aria-label="javascriptacademy.dev"])
 www.bing.com##li.b_algo:has(a[aria-label="Foolish Developer"])
 www.bing.com##li.b_algo:has(a[aria-label="codewithfaraz.com"])
+www.bing.com##li.b_algo:has(a[aria-label="cashify.in"])
