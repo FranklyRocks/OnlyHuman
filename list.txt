@@ -528,7 +528,6 @@
 ||aquariumfishsource.com^$doc
 ||fishkeepingadvice.com^$doc
 ||aigodlike.com^$doc
-||github.com/lllyasviel^$doc
 ||perfectcorp.com^$doc
 ||deepgram.com^$doc
 ||lightxeditor.com^$doc
@@ -1351,7 +1350,6 @@ google.com##a[href*="askmkbhd.com"]:upward(2):remove()
 google.com##a[href*="aquariumfishsource.com"]:upward(2):remove()
 google.com##a[href*="fishkeepingadvice.com"]:upward(2):remove()
 google.com##a[href*="aigodlike.com"]:upward(2):remove()
-google.com##a[href*="github.com/lllyasviel"]:upward(2):remove()
 google.com##a[href*="perfectcorp.com"]:upward(2):remove()
 google.com##a[href*="deepgram.com"]:upward(2):remove()
 google.com##a[href*="lightxeditor.com"]:upward(2):remove()
@@ -2174,7 +2172,6 @@ www.bing.com##li.b_algo:has(a[aria-label="askmkbhd.com"])
 www.bing.com##li.b_algo:has(a[aria-label="aquariumfishsource.com"])
 www.bing.com##li.b_algo:has(a[aria-label="fishkeepingadvice.com"])
 www.bing.com##li.b_algo:has(a[aria-label="aigodlike.com"])
-www.bing.com##li.b_algo:has(a[aria-label="github.com/lllyasviel"])
 www.bing.com##li.b_algo:has(a[aria-label="perfectcorp.com"])
 www.bing.com##li.b_algo:has(a[aria-label="deepgram.com"])
 www.bing.com##li.b_algo:has(a[aria-label="lightxeditor.com"])
@@ -2997,7 +2994,6 @@ duckduckgo.com##a[href*="askmkbhd.com"]:upward(4):remove()
 duckduckgo.com##a[href*="aquariumfishsource.com"]:upward(4):remove()
 duckduckgo.com##a[href*="fishkeepingadvice.com"]:upward(4):remove()
 duckduckgo.com##a[href*="aigodlike.com"]:upward(4):remove()
-duckduckgo.com##a[href*="github.com/lllyasviel"]:upward(4):remove()
 duckduckgo.com##a[href*="perfectcorp.com"]:upward(4):remove()
 duckduckgo.com##a[href*="deepgram.com"]:upward(4):remove()
 duckduckgo.com##a[href*="lightxeditor.com"]:upward(4):remove()
