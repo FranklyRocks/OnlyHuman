@@ -19,3 +19,7 @@ with open('list.txt', 'w') as f:
     f.write('\n# Block DuckDuckGo results\n')
     for domain in domains:
         f.write(f'duckduckgo.com##a[href*="{domain}"]:upward(4):remove()\n')
+    
+    f.write('\n# Block Yandex results\n')
+    for domain in domains:
+        f.write(f'yandex.com###search-result > li:has(a[href*="{domain}"])\n')
