@@ -11,7 +11,7 @@ OnlyHuman specifically targets:
 - **AI-SEO content farms**,  websites designed to rank for search queries by mass-producing low-effort AI rewrites.
 - **Thin SEO sites**,  pages with thousands of words saying nothing, purely optimized for search algorithms.
 - **Spun content and rewrites**,  identical articles regurgitated across multiple domains.
-- **Search result spam**,  low-quality sites that flood Google, Bing, and DuckDuckGo with filler content.
+- **Search result spam**,  low-quality sites that flood **Google**, **Bing**, **DuckDuckGo**, **Yandex** with filler content.
 
 If it's a website built purely to exploit search engines with AI-generated fluff, it gets blocked.
 
