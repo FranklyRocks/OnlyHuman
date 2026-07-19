@@ -819,6 +819,7 @@
 ||musesai.io^$doc
 ||promptstock.photos^$doc
 ||cashify.in^$doc
+||toolsradar.com^$doc
 
 # Block Google results
 google.com##a[href*="animegenius.ai"]:upward(2):remove()
@@ -1641,6 +1642,7 @@ google.com##a[href*="aiimagegenerator.is"]:upward(2):remove()
 google.com##a[href*="musesai.io"]:upward(2):remove()
 google.com##a[href*="promptstock.photos"]:upward(2):remove()
 google.com##a[href*="cashify.in"]:upward(2):remove()
+google.com##a[href*="toolsradar.com"]:upward(2):remove()
 
 # Block Bing results
 www.bing.com##li.b_algo:has(a[aria-label="animegenius.ai"])
@@ -2463,6 +2465,7 @@ www.bing.com##li.b_algo:has(a[aria-label="aiimagegenerator.is"])
 www.bing.com##li.b_algo:has(a[aria-label="musesai.io"])
 www.bing.com##li.b_algo:has(a[aria-label="promptstock.photos"])
 www.bing.com##li.b_algo:has(a[aria-label="cashify.in"])
+www.bing.com##li.b_algo:has(a[aria-label="toolsradar.com"])
 
 # Block DuckDuckGo results
 duckduckgo.com##a[href*="animegenius.ai"]:upward(4):remove()
@@ -3285,6 +3288,7 @@ duckduckgo.com##a[href*="aiimagegenerator.is"]:upward(4):remove()
 duckduckgo.com##a[href*="musesai.io"]:upward(4):remove()
 duckduckgo.com##a[href*="promptstock.photos"]:upward(4):remove()
 duckduckgo.com##a[href*="cashify.in"]:upward(4):remove()
+duckduckgo.com##a[href*="toolsradar.com"]:upward(4):remove()
 
 # Block Yandex results
 yandex.com###search-result > li:has(a[href*="animegenius.ai"])
@@ -4107,6 +4111,7 @@ yandex.com###search-result > li:has(a[href*="aiimagegenerator.is"])
 yandex.com###search-result > li:has(a[href*="musesai.io"])
 yandex.com###search-result > li:has(a[href*="promptstock.photos"])
 yandex.com###search-result > li:has(a[href*="cashify.in"])
+yandex.com###search-result > li:has(a[href*="toolsradar.com"])
 
 # Block Ecosia results
 ecosia.org##.result__body:has(a[href*="animegenius.ai"])
@@ -4929,3 +4934,4 @@ ecosia.org##.result__body:has(a[href*="aiimagegenerator.is"])
 ecosia.org##.result__body:has(a[href*="musesai.io"])
 ecosia.org##.result__body:has(a[href*="promptstock.photos"])
 ecosia.org##.result__body:has(a[href*="cashify.in"])
+ecosia.org##.result__body:has(a[href*="toolsradar.com"])
