@@ -945,6 +945,7 @@
 ||yuzhn.ru^$doc
 ||zarit-vkusno.ru^$doc
 ||zvenst.ru^$doc
+||grokipedia.com^$doc
 
 # Block Google results
 google.com##a[href*="animegenius.ai"]:upward(2):remove()
@@ -1893,6 +1894,7 @@ google.com##a[href*="xn-----7kcbekeiftdh9amwkb4d2o.xn--p1ai"]:upward(2):remove()
 google.com##a[href*="yuzhn.ru"]:upward(2):remove()
 google.com##a[href*="zarit-vkusno.ru"]:upward(2):remove()
 google.com##a[href*="zvenst.ru"]:upward(2):remove()
+google.com##a[href*="grokipedia.com"]:upward(2):remove()
 
 # Block Bing results
 www.bing.com##li.b_algo:has(a[aria-label="animegenius.ai"])
@@ -2841,6 +2843,7 @@ www.bing.com##li.b_algo:has(a[aria-label="xn-----7kcbekeiftdh9amwkb4d2o.xn--p1ai
 www.bing.com##li.b_algo:has(a[aria-label="yuzhn.ru"])
 www.bing.com##li.b_algo:has(a[aria-label="zarit-vkusno.ru"])
 www.bing.com##li.b_algo:has(a[aria-label="zvenst.ru"])
+www.bing.com##li.b_algo:has(a[aria-label="grokipedia.com"])
 
 # Block DuckDuckGo results
 duckduckgo.com##a[href*="animegenius.ai"]:upward(4):remove()
@@ -3789,6 +3792,7 @@ duckduckgo.com##a[href*="xn-----7kcbekeiftdh9amwkb4d2o.xn--p1ai"]:upward(4):remo
 duckduckgo.com##a[href*="yuzhn.ru"]:upward(4):remove()
 duckduckgo.com##a[href*="zarit-vkusno.ru"]:upward(4):remove()
 duckduckgo.com##a[href*="zvenst.ru"]:upward(4):remove()
+duckduckgo.com##a[href*="grokipedia.com"]:upward(4):remove()
 
 # Block Yandex results
 yandex.com###search-result > li:has(a[href*="animegenius.ai"])
@@ -4737,6 +4741,7 @@ yandex.com###search-result > li:has(a[href*="xn-----7kcbekeiftdh9amwkb4d2o.xn--p
 yandex.com###search-result > li:has(a[href*="yuzhn.ru"])
 yandex.com###search-result > li:has(a[href*="zarit-vkusno.ru"])
 yandex.com###search-result > li:has(a[href*="zvenst.ru"])
+yandex.com###search-result > li:has(a[href*="grokipedia.com"])
 
 # Block Ecosia results
 ecosia.org##.result__body:has(a[href*="animegenius.ai"])
@@ -5685,3 +5690,4 @@ ecosia.org##.result__body:has(a[href*="xn-----7kcbekeiftdh9amwkb4d2o.xn--p1ai"])
 ecosia.org##.result__body:has(a[href*="yuzhn.ru"])
 ecosia.org##.result__body:has(a[href*="zarit-vkusno.ru"])
 ecosia.org##.result__body:has(a[href*="zvenst.ru"])
+ecosia.org##.result__body:has(a[href*="grokipedia.com"])
