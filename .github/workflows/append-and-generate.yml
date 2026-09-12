@@ -1,0 +1,29 @@
+name: append-and-generate
+
+on:
+  workflow_dispatch:
+    inputs:
+      line:
+        description: "Url to add to rawlist.txt"
+        required: true
+        type: string
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: append
+        run: echo "${{ github.event.inputs.line }}" >> rawlist.txt
+
+      - name: generate
+        run: python3 generate.py
+
+      - name: commit
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add -A
+          git commit -m "Added ${{ github.event.inputs.line }}"
+          git push
