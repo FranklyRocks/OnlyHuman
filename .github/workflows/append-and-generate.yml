@@ -15,7 +15,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: append
-        run: echo -e "\n${{ github.event.inputs.line }}" >> rawlist.txt
+        run: printf "%s\n" "${{ github.event.inputs.line }}" >> rawlist.txt
 
       - name: generate
         run: python3 generate.py
